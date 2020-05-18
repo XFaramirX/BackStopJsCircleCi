@@ -31,7 +31,7 @@
   "onReadyScript": "puppet/onReady.js",
   "scenarios": [
     {
-      "label": "Article Page",
+      "label": "Article Page ",
       "cookiePath": "backstop_data/engine_scripts/cookies.json",
       "url": "https://brooks-pattern-library-refresh-qa.azurewebsites.net/patterns/03-templates-article/03-templates-article.rendered.html",
       "referenceUrl": "",
