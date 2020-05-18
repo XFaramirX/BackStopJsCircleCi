@@ -1,0 +1,11 @@
+{
+  "name": "brooks-visual-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "approve": "backstop approve --docker",
+    "test": "backstop test --docker",
+    "init": "backstop init --docker"
+  }
+}

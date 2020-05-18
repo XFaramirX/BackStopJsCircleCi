@@ -1,0 +1,15 @@
+version: 2.1
+
+orbs:
+  backstop: reload/backstop@2
+
+workflows:
+  version: 2
+  test:
+    jobs:
+      - backstop/visual-test:
+          name: Visual regression tests
+          filters:
+            branches:
+              ignore:
+                - qa
